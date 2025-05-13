@@ -15,7 +15,7 @@ jobs:
     executor: docker-dind
     environment:
       # model and path args for your build
-      MODEL_NAME: "LoneStriker/NeuralBeagle14-7B-8.0bpw-h8-exl2"
+      MODEL_NAME: "mlabonne/NeuralBeagle14-7B"
       BASE_PATH: "/models"
     steps:
       - checkout
